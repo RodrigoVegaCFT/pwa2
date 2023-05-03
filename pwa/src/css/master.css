@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(to bottom, #0b817b, #6c88d6, #75ecf0);
+}
+
+.indx {
+  background-image: url(/img/giphy\ cuento.gif);
+  background-size: cover;
+  width: 95%;
+  height: 95%;
+}
+
+.fondo-cuento {
+  background-image: url(/img/giphy-fondo.gif);
+  background-size: cover;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.center-section {
+  width: 80%;
+  max-width: 800px;
+  background-color: #f5f5f5;
+  padding: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px -1px 22px 4px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px -1px 22px 4px rgba(255, 255, 255, 1);
+  box-shadow: 0px -1px 22px 4px rgba(255, 255, 255, 1);
+  font-family: "Pacifico", cursive;
+}
+
+.center-section h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+  font-stretch: wider;
+}
+
+.crear h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Pacifico", cursive;
+  font-style: bold;
+}
+
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cont img {
+  width: 25%;
+  max-width: 512px;
+  margin: 12px;
+}
+
+.confirmar {
+  display: flex;
+  justify-content: center;
+}
+
+.boton {
+  background-color: #0b817b;
+  font-size: 30px;
+  color: #f5f5f5;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+.boton:hover {
+  cursor: pointer;
+}
